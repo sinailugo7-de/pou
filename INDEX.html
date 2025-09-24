@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="estilos.css">
+  
+  <title>Sazón Semántico — Blog Culinario</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <meta name="description" content="Sazón Semántico: recetas fáciles, paso a paso y con enfoque accesible." />
+</head class >
+<body>
+  <header class="naz" role="banner">
+    <div class="container">
+      
+      <h1>BLOG CULINARIO</h1>
+      <p class="tagline">RECETAS FACILES Y DELICIOSAS</p>
+      <img src="logo.jpeg"Logotipo: Sazón Semántico, una cuchara sobre un plato class="logi"  />
+      
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="hero" aria-label="Imagen destacada y descripción">
+      
+      
+
+    <section id="recetas" class="recetas" aria-labelledby="recetas-title">
+      <h2 id="recetas-title">Recetas destacadas</h2>
+
+      <ul>
+        <li>
+          <article class="receta-card" aria-labelledby="r1">
+            <h3 id="r1"><a href="receta-tacos-al-pastor.html" title="Ir a la receta completa de Tacos al Pastor">Tacos al Pastor</a></h3>
+            <figure>
+              <img src="pastor.jpeg" width="300" height="300" alt="Tacos al pastor servidos en tortilla de maíz con piña y cilantro" />
+              <figcaption>Tacos al pastor: carne jugosa, piña y salsa.</figcaption>
+            </figure>
+            <p>Clásico mexicano — marinado, trompo y mucho sabor.</p>
+            <a href="receta-tacos-al-pastor.html" title="Ver ingredientes y pasos para los Tacos al Pastor"></a>
+          </article>
+        </li>
+
+        <li>
+          <article class="receta-card" aria-labelledby="r2">
+            <h3>Enchiladas de Queso</a></h3>
+            <figure>
+              <img src="enchis.jpeg" width="300" height="300 ""Fuente de enchiladas de queso con salsa roja y queso gratinado" />
+              <figcaption>Enchiladas gratinadas listas para hornear.</figcaption>
+            </figure>
+            <p>Rápidas y perfectas para cualquier cena.</p>
+            <a href="receta-enchiladas-de-queso.html" title="Ver cómo hacer enchiladas de queso paso a paso"></a>
+          </article>
+        </li>
+
+        <li>
+          <article class="receta-card" aria-labelledby="r3">
+            <h3 id="r3"><a href="receta-pastel-de-chocolate.html" title="Ir a la receta de Pastel de Chocolate">Pastel de Chocolate</a></h3>
+            <figure>
+              <img src="pastel.jpeg"  height="300" width="300""Rebanada de pastel de chocolate con glaseado brillante" />
+              <figcaption>Postre perfecto para celebraciones.</figcaption>
+            </figure>
+            <p>Húmedo, chocolateado y fácil de preparar.</p>
+            <a href="receta-pastel-de-chocolate.html" title="Leer la receta de pastel de chocolate"></a>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    
+    <section id="sobre-mi" class="sobre-mi" aria-labelledby="sobre-mi-title">
+      <h2 id="sobre-mi-title">Sobre mí</h2>
+      <figure>
+        <img src="yo.jpeg" width="190" height="190" alt="Fotografía de la autora en la cocina sosteniendo una espátula" />
+        <figcaption>HOLA SOY NAZITA ESPERO SEA DE TU AGRADO MI BROG</figcaption>
+      </figure>
+      <figure>
+        <im alt="Especias y frascos organizados en una repisa" />
+       
+      </figure>
+     
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="anio"></span> HECHO POR NAZARET SIANI LUGO GONZALEZ</p>
+      <nav aria-label="Enlaces sociales">
+        <ul class="social">
+        
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Pequeño script para año dinámico (opcional)
+    document.getElementById('anio').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1eda9;
+    margin: 0;
+    padding: 0;
+    color: #2e003e;
+    text-align: center;
+  }
+  
+  /* Título */
+  header h1 {
+    font-family:  arial;
+    font-size: 2.5em;
+    margin: 20px 0;
+  }
+  
+  /* Navegación */
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    background-color: #7d2ca5;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+    width: 80%;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #5a1e75;
+  }
+  
+  /* Secciones */
+  section {
+    margin: 30px 15px;
+    padding: 20px;
+    background: #e1b4ec;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    color: #2e003e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sobre mí */
+  .sobre-mi {
+    background-color: #d39ede;
+    padding: 20px;
+    border-top: 3px solid #7d2ca5;
+    border-bottom: 3px solid #7d2ca5;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #d39ede;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 3px solid #7d2ca5;
+  }
+  
+  footer img {
+    width: 80px;
+    margin: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  /* ------------------------------
+     RESPONSIVE DESIGN
+  --------------------------------*/
+  @media (min-width: 768px) {
+    nav {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    nav a {
+      width: auto;
+      margin: 10px;
+    }
+  
+    section {
+      width: 70%;
+      margin: 30px auto;
+    }
+  
+    footer img {
+      width: 100px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    header h1 {
+      font-size: 3.2em;
+    }
+  
+    section {
+      width: 60%;
+    }
+  
+    nav a {
+      font-size: 1.1em;
+      padding: 15px 25px;
+    }
+  }
+
+  .logi{
+
+ height:300px ;
+  }
